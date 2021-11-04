@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Dispelling the Myth of Remittances</title>
+    
+   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <style>
+
+		p {
+			font-family: 'Karla', sans-serif;
+			color:#353536;
+			font-weight:300;
+		}
+        
+        b {
+			font-family: 'Karla', sans-serif;
+			font-weight:600;
+		}
+        c {
+			font-family: 'Karla', sans-serif;
+            font-size:10px;
+			font-weight:300;
+		}
+		svg {
+			width:100%;
+			height:600px;
+			padding-left:5%;
+			padding-right:50px;		
+		}
+		
+		h1 {
+			font-size:60px;
+			font-weight:600;
+			line-height:1.3;
+            font-family:'Playfair Display', serif;
+            color: goldenrod;
+		}
+        
+        h2 {
+			font-size:15px;
+			font-weight:500;
+			line-height:1.3;
+            font-family: 'Karla', sans-serif;
+		}
+        
+        h3 {
+			font-size:30px;
+			font-weight:800;
+			line-height:1.3;
+            font-family:'Playfair Display', serif;
+            color: darkgoldenrod;
+		}
+		
+		
+		#firstvisualdiv{
+          position: -webkit-sticky;
+          position: sticky;
+          top: -1px;
+          border-color: black;
+          padding: 100px;
+          transition: opacity 0.8s;
+         -webkit-transition: opacity 0.8s;
+
+    	}
+
+    #secondvisualdiv {
+          position: -webkit-sticky;
+          position: sticky;
+          top: -1px;
+          padding: 100px;
+          transition: opacity 0.8s;
+         -webkit-transition: opacity 0.8s;
+        }
+
+
+   .img{
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    opacity: 0;
+    transition: opacity 1.2s;
+    -webkit-transition: opacity 1.2s;
+
+   }
+        
+    .imgstay{
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    opacity: 0;
+    filter: grayscale(100%);
+    transition: opacity 0.8s;
+    -webkit-transition: opacity 0.8s;
+
+   }
+        
+    .map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+}
+
+   .text1opacity {
+        font-size:20px;
+        color: whitesmoke;
+        fill:blue;
+        background-color: saddlebrown;
+        opacity:0;
+       font-weight:500;
+        transition: opacity 0.8s;
+         -webkit-transition: opacity 0.8s;
+        }
+
+    .text3opacity, .text2opacity {
+        font-size:20px;
+        fill:blue;
+        opacity:0;
+        transition: opacity 0.8s;
+         -webkit-transition: opacity 0.8s;
+        } 
+
+	.active {
+        	opacity:1;
+    	}
+
+
+    .deactive {
+            opacity:0;
+        }
+
+	</style>
+
+
+</head>
+<body>
+  <main role="main" class="container" >
+     <div class="row">
+     	<div class="col-12">
+     		<br><br><br><br><br><br>
+     		<hr><h1 style= "font-size:30px" id="title">Dispelling</h1><h1 style= "font-size:70px" id="title">the Myth of Remittances</h1><hr id="title">
+     	
+     	</div>
+         
+         <div class="col-12">
+     		<h2 id="text0">Pratiwi Prameswari - 922374468</h2>
+             <br><br><br><br><br><br><br>
+     	</div>
+     </div>
+     <div class="row">
+        <div class="col-8">
+         <img class="imgstay" src="Central%20American%20Migrants.jpg" id="img0">
+        
+            <br><br>
+         </div>
+         <div class="col-1"> </div>
+        <div class="col-3">
+        <br><br>
+         <hr><h3 id="myth">myth.</h3>
+         <p> In the Northern Triangle, remittance money goes toward</p><b> non-essential sectors</b>
+         <hr></div>
+         
+      </div>
+            
+      <div class="row">      
+     	<div class="col-8">
+     		<div id="firstvisualdiv">   
+               <h3 style="font-size: 35px;"> <br> Motivations of the Northern Triangle Migrants </h3>
+               <p class="text1opacity"> 1st. Economic reasons (low income, lack of work, etc.) </p>
+               <p class="text2opacity"> 2nd. Violence or insecurity where you live </p>
+               <p class="text3opacity"> 3rd. Reunite with family already living in the United States </p>
+     		</div>
+     	</div>
+<div class="col-4">
+      <br><br><br><br><br>
+      <hr><h3>background.</h3>
+      <p id="back">For more than a decade, migration has been happening from Central America to the United States. El Salvador, Honduras, and Guatemala, usually called as Northern Triangle, are countries that have been put into spotlight for its migration phenomenon. People migrate for various motivations. Based on Abuelafia et. al. (2019), there are at least three main reasons why people decided to migrate. </p>
+
+      <br>
+    
+     	<p id="text1"> The first reason is economic reasons. People decided to do the migration because of their low income and lack of employment. By moving to the United States, migrants believe that they can get more opportunities to work and increase their income. Then, they send their salary to their home country as remittances. </p>
+
+     	<br>
+
+     	<p id="text2">The second main reason is violence or insecurity. High rate of crime and low protection to people's safety in the country of origin push people to move to another country in search for a better security. </p>
+     	<br>
+
+     	<p id="text3">The last reason of primary motivations why people decided to move is family already living in the United States. After  a few people migrated from a household, the rest of family might want to follow them. This usually happens when children want to reunite with their parents who already migrated before them. </p>
+     	<br><br>
+    
+        <p> Since economic reasons are the first primary drive of migration, this research decided to dig deeper into remittances sent by people who have already migrated. </p>
+     	</div>
+        </div>  
+  
+    <div class="row">
+     	<div class="col-8">
+     		<br><br>
+     		<div class ="map-responsive"> <iframe src = "map_remit.html" frameborder=”0″ style=”border:0″></iframe>
+     		</div>
+     	</div>
+        
+        <div class="col-4">
+      <hr> <br><br>
+      <h3>amount of remittances.</h3>
+      <p>The map shows the distribution of the amount of remittances based on department in each country of the Northern Triangle. It can be seen from the map that Guatemala has the highest amount of remittances, compared to El Salvador and Honduras.You can hover to each of the dots to see the name of the department and the amount of remittances in dollars.   </p>
+            <br><br><br>
+        </div>
+    <div/>    
+      <div class="row"> 
+    <div class="col-8">
+                <div id="secondvisualdiv">
+                <img class="img" src="scatter_remit.png">
+     		</div>
+     	</div>
+         <div class="col-4">
+        <hr>
+        <br><br><h3>remittance amount vs year.</h3>
+     	<p id="text4">This section shows the correlation between remittance amount (in dollars) and total years people have been receiving remittances. The data display in the diagram was collected from El Salvador, Honduras, and Guatemala in 2020.  </p>
+        
+        <br><br>
+        <p> It can be seen that the data is dispersed and not aglommerated into a single line. </p>
+
+     	<br><br>
+        <p>However, the data circles tend to be near the x axis. This might mean that the amount of remittances will not change significantly, even though people have been receiving it for years. </p>
+        
+        <br><br>
+        <p> Most people also have been receiving remittances less than 20 years with total amount less than 1,000 dollars. </p>
+        
+        <br><br>
+     	</div>
+     </div>
+  </main><!-- /.container -->
+</body>
+
+<script type="text/javascript">    
+    var controller = new ScrollMagic.Controller();
+    new ScrollMagic.Scene({triggerElement: "#myth"})
+        	.setClassToggle(".imgstay", "active") 
+        	.addTo(controller);
+    
+     new ScrollMagic.Scene({triggerElement: "#img0"})
+        	.setClassToggle("#text0, #title", "deactive") 
+        	.addTo(controller);
+    
+    new ScrollMagic.Scene({triggerElement: "back"})
+        	.setClassToggle("#firstvisualdiv", "active") 
+        	.addTo(controller);
+    	new ScrollMagic.Scene({triggerElement: "#text1"})
+        	.setClassToggle(".text1opacity", "active") 
+        	.addTo(controller);
+        
+    	new ScrollMagic.Scene({triggerElement: "#text2"})
+        	.setClassToggle(".text2opacity", "active") 
+        	.addTo(controller);
+                        
+		new ScrollMagic.Scene({triggerElement: "#text3"})
+        	.setClassToggle(".text3opacity", "active") 
+        	.addTo(controller);
+
+        new ScrollMagic.Scene({triggerElement: "#text4"})
+            .setClassToggle(".img", "active") 
+            .addTo(controller);
+
+								
+</script>
+</body>
+</html>
